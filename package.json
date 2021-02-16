@@ -1,0 +1,33 @@
+{
+	"name": "spos",
+	"version": "4.1.0",
+	"description": "Simple POS - Point of Sale Made Easy",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MianSaleem/spos.git"
+	},
+	"author": "Mian Saleem",
+	"bugs": {
+		"url": "https://github.com/MianSaleem/spos/issues"
+	},
+	"homepage": "https://github.com/MianSaleem/spos#readme",
+	"scripts": {
+		"gulp": "gulp",
+		"build": "gulp build",
+		"web": "gulp buildWeb",
+		"app": "gulp buildApp"
+	},
+	"devDependencies": {
+		"copyfiles": "^2.1.1",
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssmin": "^0.2.0",
+		"gulp-imagemin": "^6.1.0",
+		"gulp-purifycss": "^0.2.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-uglify": "^3.0.2"
+	}
+}
